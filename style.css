@@ -13,8 +13,6 @@
 .top_bar_icons i {
   padding: 0 5px;
 }
-@media screen and (min-width=800px) {
-}
 .info {
 }
 .tags {
@@ -30,8 +28,45 @@
 }
 .views {
   padding-left: 10px;
+  padding-bottom: 5px;
   color: gray;
   font-size: 13px;
 }
 .info_icons {
+  display: flex;
+  justify-content: space-around;
+  font-size: 15px;
+}
+.info_icons a:active {
+  color: blue;
+}
+.info_icons_text {
+  display: flex;
+  justify-content: space-around;
+}
+.info_icons_text > li:nth-child(1) {
+  position: static;
+}
+.info_icons_text li {
+  position: relative;
+  left: 16px;
+}
+.subscribe {
+  margin: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-top: 1px solid gray;
+}
+.subscribe img {
+  width: 45px;
+  height: 45px;
+  margin: 5px 10px;
+}
+.subscribe div {
+  position: absolute;
+  right: 10px;
+  font-size: 12px;
+}
+@media screen and (min-width=710px) {
 }
