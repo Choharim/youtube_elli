@@ -77,10 +77,30 @@
   height: 45px;
   margin: 5px 10px;
 }
-.subscribe div {
+.subscribe button {
   position: absolute;
   right: 10px;
   font-size: 12px;
+  background-color: white;
+  border: none;
+}
+.up_next {
+  padding: 10px;
+  color: gray;
+  font-size: 13px;
+}
+.another_vidio {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+.another_vidio_list img {
+  width: 270px;
+  padding-left: 10px;
+}
+.another_vidio_list button {
+  background-color: white;
+  border: none;
 }
 @media screen and (min-width=710px) {
 }
