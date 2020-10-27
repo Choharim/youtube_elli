@@ -13,8 +13,6 @@
 .top_bar_icons i {
   padding: 0 5px;
 }
-.info {
-}
 .tags {
   color: blue;
   font-size: 15px;
@@ -26,18 +24,33 @@
 .title {
   padding: 5px 10px;
 }
+.title_button {
+  background-color: white;
+  border: none;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 10px;
+}
+.title_button i {
+  font-size: 16px;
+}
 .views {
   padding-left: 10px;
-  padding-bottom: 5px;
   color: gray;
   font-size: 13px;
 }
 .info_icons {
+  margin-top: 5px;
   display: flex;
   justify-content: space-around;
   font-size: 15px;
 }
-.info_icons a:active {
+.info_icons button {
+  background-color: white;
+  border: none;
+}
+.info_icons button:active {
   color: blue;
 }
 .info_icons_text {
@@ -57,6 +70,7 @@
   justify-content: flex-start;
   align-items: center;
   border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
 }
 .subscribe img {
   width: 45px;
